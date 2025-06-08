@@ -1,0 +1,22 @@
+{
+  "name": "REM Waste",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm:dev-client\" \"npm:dev-server\"",
+    "dev-client": "npm run start --workspace=client",
+    "dev-server": "npm run dev --workspace=server",
+    "build": "npm run build --workspaces --if-present"
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/react-modal": "^3.16.3",
+    "react-modal": "^3.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
