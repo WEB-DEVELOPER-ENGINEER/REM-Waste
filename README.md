@@ -8,6 +8,10 @@
 
 This repository contains a production-grade, full-stack e-commerce application for REM Waste, engineered for high performance and scalability.
 
+## 🚀 Live Demo
+
+You can access the live application here: [https://8c7e8e9f-4326-4a98-b9ab-2b8679f02aad-00-1zyg3gvh9x44v.worf.replit.dev/](https://8c7e8e9f-4326-4a98-b9ab-2b8679f02aad-00-1zyg3gvh9x44v.worf.replit.dev/)
+
 ## ✨ Key Architectural & Technical Highlights
 
 This project is more than a simple e-commerce application; it's a production-grade boilerplate engineered for scalability, performance, and maintainability, aligning with modern FAANG-level standards.
